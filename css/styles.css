@@ -79,3 +79,32 @@ article a:hover {
 article a:active {
     transform: scale(0.95);
 }
+
+footer {
+    margin: 3rem 0;
+}
+
+.footer__items {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.footer__items li {
+    margin: 0 0.5rem;
+}
+
+.footer__items a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0.6rem;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.footer__items .icon {
+    font-size: 18px;
+}
