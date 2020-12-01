@@ -1,0 +1,38 @@
+    * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 1300px) {
+    body {
+        background-image: url(../images/bg-desktop.svg);
+    }
+    .ilustration {
+        display: flex;
+        margin-top: 4rem;
+        padding: 0;
+    }
+    .ilustration__container {
+        width: 65%;
+    }
+    article {
+        margin-left: 3.2rem;
+        text-align: start;
+        width: 40%;
+    }
+    article h1 {
+        font-size: 2rem;
+    }
+    article p {
+        font-size: 15px;
+    }
+    article a {
+        padding: 0.8rem 3.8rem;
+    }
+    footer {
+        margin: 1rem 0;
+    }
+    .footer__items {
+        justify-content: flex-end;
+    }
